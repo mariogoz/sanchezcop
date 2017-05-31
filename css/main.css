@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;  
+	overflow: hidden;
+}
+
+.contenedor .main {
+	width: 100%;
+	max-width: 1129px;
+	margin: auto;
+}
+
+

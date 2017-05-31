@@ -1,0 +1,115 @@
+.contenedor .main .contenedor-destacados {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	align-items: center;
+	
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo .titulo-propiedad {
+	font-weight: 300i;
+	width: 100%;
+	max-width: 1000px;
+	padding: 20px;
+	
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo {
+	width: 100%;
+	max-width: 1129px;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo .img-propiedad {
+	width: 100%;
+	padding: 20px;
+	max-width: 320px;
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas  .contenedor-hijo .img-propiedad img {
+	opacity: 0.7;
+	width: 100%;
+	max-width: 300px;
+	height: 182px;
+    border-radius: 5px;
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas .descripcion {
+	padding: 20px;
+	max-width: 400px;
+	text-align: center;
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo .descripcion em {
+	max-width: 200px;
+	font-size: 14px;
+	width: 100%;
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo .descripcion p {	
+	padding: 20px 15px;
+	max-width: 200px;
+	width: 100%;
+	margin: auto;
+	padding: 20px;
+	font-weight: bolder;
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo .form-div {
+	padding: 20px;
+}
+.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo .form-div form input[type="submit"] {
+	background: none;
+	border: 1px solid #4fb560;
+    border-radius: 5px;
+	max-width: 200px;
+    width: 100% ;
+    margin: auto;
+    max-width: 216px;
+    color : #4fb560;
+    padding:  20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo .form-div form input[type="submit"]:hover {
+	background: #4fb560;
+    color: #fff;
+}
+
+.pagination {
+	margin: auto;
+	padding: 20px;
+}
+
+.titulo-main {
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+
+@media screen and (max-width:923px) {
+	.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:525px) {
+	.contenedor .main .contenedor-destacados .propiedades-destacadas .contenedor-hijo {
+		flex-direction: column;
+		text-align: center;
+	}
+}
